@@ -13,9 +13,9 @@ const getRandomQuote = (): Quote => {
 };
 
 const getRandomBackgroundColor = (): string => {
-  const red = Math.floor(Math.random() * 128);
-  const green = Math.floor(Math.random() * 128);
-  const blue = Math.floor(Math.random() * 128);
+  const red = Math.floor(Math.random() * 200);
+  const green = Math.floor(Math.random() * 200);
+  const blue = Math.floor(Math.random() * 200);
 
   return `rgb(${red}, ${green}, ${blue})`;
 }
@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="background" style={{ backgroundColor: backgroundColor }}>
       <div id="quote-box">
-        <h5 id="title">Random Quote Machine</h5>
+        <h4 id="title">Random Quote Machine</h4>
         <h2 id="text">"{quote.quote}"</h2>
         <h4 id="author">— {quote.author}</h4>
         <div className="button-container">
