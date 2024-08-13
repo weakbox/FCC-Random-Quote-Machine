@@ -1,4 +1,4 @@
-# freeCodeCamp Random Quote Generator
+# freeCodeCamp Random Quote Machine
 
 Submission for freeCodeCamp's "Front End Development Libraries" course.
 
